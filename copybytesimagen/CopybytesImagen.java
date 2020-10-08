@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package copybytestexto;
+package copybytesimagen;
 
 import java.util.Scanner;
 
@@ -11,14 +11,14 @@ import java.util.Scanner;
  *
  * @author Xavier
  */
-public class Copybytestexto {
+public class CopybytesImagen {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        ModArchivo.copiarArchivo("texto1.txt");
+        ModArchivo.copiarArchivo("foto.jpg");
         //System.out.println("Working Directory: " + System.getProperty("user.dir"));
     }
     

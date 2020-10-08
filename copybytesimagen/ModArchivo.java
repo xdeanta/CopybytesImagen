@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package copybytestexto;
+package copybytesimagen;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -23,7 +23,7 @@ public class ModArchivo {
         try{
             int contenido;
             org=new FileInputStream(name);
-            copia=new FileOutputStream("texto2.txt",true);
+            copia=new FileOutputStream("foto2.jpg",true);
             while((contenido=org.read()) != -1){
                 copia.write(contenido);
             }
