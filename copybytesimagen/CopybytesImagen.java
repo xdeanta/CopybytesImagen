@@ -18,8 +18,9 @@ public class CopybytesImagen {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        ModArchivo.copiarArchivo("foto.jpg");
-        //System.out.println("Working Directory: " + System.getProperty("user.dir"));
+        //ModArchivo.copiarArchivo("foto.jpg");
+        ModArchivo.copiarArchivoBuffer("foto.jpg");
+//System.out.println("Working Directory: " + System.getProperty("user.dir"));
     }
     
 }
